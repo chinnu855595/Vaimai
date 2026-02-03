@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Be My Valentine 🤍</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card" id="quiz">
+  <h1 id="question"></h1>
+  <div id="options"></div>
+</div>
+
+<div class="card hidden" id="valentine">
+  <h1>Would you like to be my Valentine? 🤍</h1>
+  <div class="btns">
+    <button class="yes" onclick="showLove()">YES 💕</button>
+    <button class="no" id="noBtn">NO 🙃</button>
+  </div>
+</div>
+
+<div class="card hidden" id="love">
+  <h1>You said YES 🤍✨</h1>
+  <p>My heart is officially yours 💖</p>
+  <img src="ourpic.jpg" alt="Us together">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
