@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  width: 90%;
+  max-width: 350px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.hidden {
+  display: none;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  margin: 8px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.yes {
+  background-color: #ff5e7e;
+  color: white;
+}
+
+.no {
+  background-color: #ddd;
+}
+
+#love img {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 12px;
+}
